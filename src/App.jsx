@@ -127,6 +127,38 @@ export default function App() {
         {/* Right Side Section */}
         <aside className="w-[35%] h-full bg-gradient-to-b from-[#051937] to-[#004d7a] p-4 text-white">
           {/* Right side content */}
+          <div className="flex flex-col h-full m-7">
+            <div className="flex flex-row pt-4 justify-between items-center ">
+              <div className="flex flex-col pt-2 ">
+                <p className="text-3xl  text-white">Monday</p>
+                <p className="text-xl text-white">April 14, 2025</p>
+              </div>
+              <div>
+                <p className="text-4xl  text-customorange">03:45 PM</p>
+              </div>
+            </div>
+            <hr class="my-4 border-t-2 border-customorange mt-8" />
+            <div className="flex flex-col mt-5 mb-5">
+              <div className="flex flex-col bg-gradient-to-b from-customfeels1 to-customfeels2 bg-no-repeat w-[100%]  p-5 rounded-2xl  mt-3 mb-3">
+                <div className="flex flex-col justify-center items-center">
+                  <p className="text-xl text-black">Temp Feels Like</p>
+                  <p className="text-5xl text-black font-bold p-2">268°</p>
+                </div>
+              </div>
+              <div className="flex flex-col bg-gradient-to-b from-custommintemp1 to-custommintemp2 bg-no-repeat w-[100%]  p-5 rounded-2xl  mt-3 mb-3">
+                <div className="flex flex-col justify-center items-center">
+                  <p className="text-xl text-black">Minimum Temp</p>
+                  <p className="text-5xl text-black font-bold p-2">22°C</p>
+                </div>
+              </div>
+              <div className="flex flex-col bg-gradient-to-b from-custommaxtemp1 to-custommaxtemp2 bg-no-repeat w-[100%]  p-5 rounded-2xl  mt-3 mb-3">
+                <div className="flex flex-col justify-center items-center">
+                  <p className="text-xl text-black">Maximum Temp</p>
+                  <p className="text-5xl text-black font-bold p-2">22°C</p>
+                </div>
+              </div>
+            </div>
+          </div>
         </aside>
       </div>
     </main>

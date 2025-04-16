@@ -10,6 +10,13 @@
   --color-visibility: #25b04e;
   --color-winddir: #a0e9fd;
   --color-windgust: #007bff;
+  --color-customorange: #d94e20;
+  --color-customfeels1: #f9a722;
+  --color-customfeels2: #ebc383;
+  --color-custommintemp1: #ecb494;
+  --color-custommintemp2: #e08026;
+  --color-custommaxtemp1: #fa6d0e;
+  --color-custommaxtemp2: #f59d62;
 }
 @font-face {
   font-family: 'Consolas';
