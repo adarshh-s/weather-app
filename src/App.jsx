@@ -87,7 +87,7 @@ export default function App() {
           <div className="flex items-center justify-between flex-wrap sm:flex-nowrap">
             <div className="flex items-center">
               <img
-                src="./src/assets/images/icon_avatar.png"
+                src="./images/icon_avatar.png"
                 alt="avatar"
                 className="w-16 h-16 rounded-full"
               />
@@ -112,7 +112,7 @@ export default function App() {
               />
               <button type="submit">
                 <img
-                  src="./src/assets/images/arrow.png"
+                  src="./images/arrow.png"
                   alt="search"
                   className="w-6 h-6"
                 />
@@ -126,7 +126,7 @@ export default function App() {
               <div
                 className="flex flex-col bg-amber-200 sm:w-[48%] w-full p-5 rounded-2xl bg-cover bg-center bg-no-repeat mt-4 sm:mt-0"
                 style={{
-                  backgroundImage: "url('./src/assets/images/image.png')",
+                  backgroundImage: "url('./images/image.png')",
                 }}
               >
                 <div className="flex items-start">
@@ -176,12 +176,12 @@ export default function App() {
               <div
                 className="flex flex-col bg-amber-200 sm:w-[48%] w-full p-5 rounded-2xl bg-cover bg-center bg-no-repeat mt-4 sm:mt-0"
                 style={{
-                  backgroundImage: "url('./src/assets/images/image1.png')",
+                  backgroundImage: "url('./images/image1.png')",
                 }}
               >
                 <div className="flex items-start">
                   <img
-                    src="./src/assets/images/wind.png"
+                    src="./images/wind.png"
                     alt="wind"
                     className="w-10 h-10"
                   />
@@ -225,11 +225,7 @@ export default function App() {
             <p className="font-bold text-2xl text-white">Daylight Schedule</p>
           </div>
           <div className="relative w-xs mx-auto">
-            <img
-              src="./src/assets/images/Group1.png"
-              alt="sunstatus"
-              className="w-full"
-            />
+            <img src="./images/Group1.png" alt="sunstatus" className="w-full" />
             <div
               className="absolute text-customorange text-xl"
               style={{
