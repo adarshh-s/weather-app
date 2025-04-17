@@ -1,4 +1,8 @@
 @import 'tailwindcss';
+body {
+  font-family: 'Consolas', monospace;
+  background: linear-gradient(to bottom, #004a76, #008adc);
+}
 
 @theme {
   --color-customBlueDark: #004a76;
@@ -21,14 +25,4 @@
 @font-face {
   font-family: 'Consolas';
   src: url(./assets/fonts/Consolas.ttf) format('truetype');
-}
-html,
-body {
-  height: 100%;
-}
-
-body {
-  font-family: 'Consolas', monospace;
-  @apply bg-gradient-to-b from-customBlueDark to-customBlueLight bg-no-repeat;
-  background-size: 100% 100%;
 }

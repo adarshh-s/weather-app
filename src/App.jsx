@@ -21,7 +21,7 @@ export default function App() {
 
   useEffect(() => {
     getWeatherData('London');
-  }, []);
+  }, [location]);
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -121,7 +121,7 @@ export default function App() {
           </div>
 
           {weatherData ? (
-            <div className="flex flex-wrap justify-between mt-8 space-x-6">
+            <div className="flex flex-wrap justify-between mt-8 space-x-6 ">
               {/* Weather Card */}
               <div
                 className="flex flex-col bg-amber-200 sm:w-[48%] w-full p-5 rounded-2xl bg-cover bg-center bg-no-repeat mt-4 sm:mt-0"
